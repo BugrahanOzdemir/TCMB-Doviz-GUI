@@ -1,20 +1,17 @@
 {
-  "name": "tcmb-doviz",
+  "name": "tcmb-doviz-gui",
   "version": "1.0.0",
   "description": "Türkiye Cumhuriyeti Merkez Bankası Güncel Döviz Arayüzü",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BugrahanOzdemir/TCMB-Doviz.git"
-  },
-  "author": "BugrahanOzdemir",
+  "keywords": [],
+  "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/BugrahanOzdemir/TCMB-Doviz/issues"
-  },
-  "homepage": "https://github.com/BugrahanOzdemir/TCMB-Doviz#readme"
+  "dependencies": {
+    "express": "^4.17.1",
+    "tcmb-exchange-rates": "^0.1.10"
+  }
 }
